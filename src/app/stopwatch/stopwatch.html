@@ -1,0 +1,16 @@
+<div class="box">
+
+  <h2>{{ format(hours) }} : {{ format(minutes) }} : {{ format(seconds) }}</h2>
+
+  <button (click)="start()">Start</button>
+  <button (click)="stop()">Stop</button>
+  <button (click)="reset()">Reset</button>
+  <button (click)="lap()">Lap</button>
+
+  <ul>
+    <li *ngFor="let lap of laps; index as i">
+      Lap {{ i + 1 }} - {{ lap }}
+    </li>
+  </ul>
+
+</div>

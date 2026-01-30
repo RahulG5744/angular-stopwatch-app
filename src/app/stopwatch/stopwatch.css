@@ -1,0 +1,14 @@
+.box {
+  text-align: center;
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+button {
+  margin: 6px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
